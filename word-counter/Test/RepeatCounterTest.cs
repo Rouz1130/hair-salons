@@ -12,10 +12,10 @@ namespace WordCounter.Objects
     }
 
       [Fact]
-      public void Test1_RepeatCounterGetA_false()
+      public void Test1_RepeatCounterGetA_true()
       {
 
-        RepeatCounter newRepeatCounter = new RepeatCounter("b");
+        RepeatCounter newRepeatCounter = new RepeatCounter("a");
         string testCounter = newRepeatCounter.GetWord();
         Assert.Equal("a", testCounter);
     }
