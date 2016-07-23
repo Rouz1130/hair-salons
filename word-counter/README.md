@@ -17,7 +17,7 @@
 
 * _You have to have an active internet connection_
 * _A working device_
-* _ and go to web site , localhost:5004_
+* _and go to web site , localhost:5004_
 
 ## Known Bugs
 
@@ -26,7 +26,7 @@ __none__
 ## Support and contact details
 
 _Contact Rouz Majlessi_
-
+_rmajlessi@gmail.com_
 ## Technologies Used
 
 _Html, C#, Nancy , Razor_
@@ -35,4 +35,4 @@ _Html, C#, Nancy , Razor_
 
 
 
-Copyright (c) 2016 **_{Epicodus via Rouz Majlessi}_**
+Copyright (c) 2016 **_Epicodus via Rouz Majlessi_**
