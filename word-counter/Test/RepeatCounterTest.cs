@@ -21,13 +21,11 @@ namespace WordCounter.Objects
 
         }
         [Fact]
-        public void Test1_RepeatCounterGetAA_true()
-        {
-
-          RepeatCounter newRepeatCounter = new RepeatCounter("a","a");
-          string testCounter = newRepeatCounter.GetWord();
-          Assert.Equal("a", "a" ,testCounter);
-        }
+      public void Test2_RepeatCounterGetThe_false()
+      {
+        RepeatCounter newRepeatCounter = new RepeatCounter("the");
+        string testCounter = newRepeatCounter.GetWord();
+        Assert.Equal("and", testCounter);
     }
 
   }
