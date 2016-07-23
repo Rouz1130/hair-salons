@@ -18,6 +18,16 @@ namespace WordCounter.Objects
         RepeatCounter newRepeatCounter = new RepeatCounter("a");
         string testCounter = newRepeatCounter.GetWord();
         Assert.Equal("a", testCounter);
+
+        }
+        [Fact]
+        public void Test1_RepeatCounterGetAA_true()
+        {
+
+          RepeatCounter newRepeatCounter = new RepeatCounter("a","a");
+          string testCounter = newRepeatCounter.GetWord();
+          Assert.Equal("a", "a" ,testCounter);
+        }
     }
 
   }

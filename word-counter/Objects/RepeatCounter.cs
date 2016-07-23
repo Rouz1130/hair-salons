@@ -32,6 +32,7 @@ namespace WordCounter.Objects
     {
       _instances.Clear();
     }
+    
 //
   }
 }

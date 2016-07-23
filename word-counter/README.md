@@ -8,8 +8,8 @@
 
 | Behavior: should handle           |  Input    | Output|
 | --------------------------------- |:---------:| -----:|
-| User enters single letter    |   "a" | "1" |        
-| User enters Multiple letters     | "a", "a"|2       |
+| User enters single letter    |   "a" | "a" |        
+| User enters a word    | "the"| "the"   |
 | User enters a word | "the" | 1 |
 | User enters a sentence  |"the weather is awful"       | 1  |
 
